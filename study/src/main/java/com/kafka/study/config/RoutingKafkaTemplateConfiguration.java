@@ -1,4 +1,4 @@
-package com.kafka.study.producer;
+package com.kafka.study.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.ByteArraySerializer;
