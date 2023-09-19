@@ -27,6 +27,7 @@ public class LookupTopic {
     public ApplicationRunner runner(AdminClient adminClient) {
         return args -> {
 
+
             Map<String, TopicListing> topicListingMap = adminClient.listTopics().namesToListings().get();
 
             for (String topicName : topicListingMap.keySet()) {
